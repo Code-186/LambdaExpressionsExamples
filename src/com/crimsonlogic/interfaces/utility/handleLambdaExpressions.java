@@ -1,5 +1,6 @@
 package com.crimsonlogic.interfaces.utility;
 
+import com.crimsonlogic.interfaces.stringoperation.StringOperations;
 import com.crimsonlogic.lambdaExpressions.*;
 
 import java.util.Scanner;
@@ -10,7 +11,7 @@ public class handleLambdaExpressions {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter choice");
-        System.out.println("1:Calcutor 2:Employee Bonus 3:Area Calcultor");
+        System.out.println("1:Calcutor 2:Employee Bonus 3:Area Calcultor 4:String Operations");
         choice = sc.nextInt();
 
         switch (choice){
@@ -51,6 +52,9 @@ public class handleLambdaExpressions {
                         System.out.println("Invalid choice");
                 }
 
+            case 4:
+                StringOperationsImp SOperationImp = new StringOperationsImp();
+                SOperationImp.SOperation.StringInput();
 
 
 
