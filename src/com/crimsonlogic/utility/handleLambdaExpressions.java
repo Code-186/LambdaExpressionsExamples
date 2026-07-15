@@ -1,6 +1,5 @@
-package com.crimsonlogic.interfaces.utility;
+package com.crimsonlogic.utility;
 
-import com.crimsonlogic.interfaces.stringoperation.StringOperations;
 import com.crimsonlogic.lambdaExpressions.*;
 
 import java.util.Scanner;
